@@ -1,0 +1,43 @@
+body{
+    font-family: "Inter", sans-serif;
+    color: #241d13;
+}
+
+header > .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px auto 90px;
+}
+.btn{
+    font-size: 14px;
+    font-weight: 800;
+    background: #ffb700;
+    color: #241d13;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: 2px solid #241d13;
+    box-shadow: 0px 3px 0px 0px rgba(36,29,19,1);
+}
+
+h1, h2{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+.logo{
+    font-family: "Bangers", system-ui;
+    font-size: 25px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
